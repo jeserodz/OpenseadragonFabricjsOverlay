@@ -1,8 +1,8 @@
 // OpenSeadragon canvas Overlay plugin 0.0.1 based on svg overlay plugin
 
-(function() {
+module.exports = function initOverlay(OpenSeadragon, fabric) {
 
-    if (!window.OpenSeadragon) {
+    if (!OpenSeadragon) {
         console.error('[openseadragon-canvas-overlay] requires OpenSeadragon');
         return;
     }
@@ -134,4 +134,4 @@
 
     };
 
-})();
+}
