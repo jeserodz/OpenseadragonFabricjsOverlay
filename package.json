@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/altert/openseadragon-fabricjs-overlay.git"
   },
-  "files": [],
+  "files": ["*/**"],
   "keywords": [
     "openseadragon",
     "plugin",
